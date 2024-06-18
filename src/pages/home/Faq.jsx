@@ -88,7 +88,7 @@ function Faq(props) {
                                         <p>{item.ques}</p>
                                         <div className="faq-icon">
                                             {
-                                                item.checked ? <img src={check} alt="Check" /> : <img src={uncheck} alt="Check" />
+                                                item.checked ? <img src={uncheck} alt="UnCheck" /> : <img src={check} alt="Check" />
                                             }
                                         </div>
                                     </label>
@@ -115,7 +115,7 @@ function Faq(props) {
                                         <p>{item.ques}</p>
                                         <div className="faq-icon">
                                             {
-                                                item.checked ? <img src={check} alt="Check" /> : <img src={uncheck} alt="UnCheck" />
+                                                item.checked ? <img src={uncheck} alt="UnCheck" /> : <img src={check} alt="Check" />
                                             }
                                         </div>
                                     </label>
