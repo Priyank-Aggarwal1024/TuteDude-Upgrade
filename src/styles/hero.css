@@ -7,8 +7,9 @@
     width: 100%;
 }
 
-.hero-section {
+section.hero-section {
     position: relative;
+    padding-top: 24px;
 }
 
 .hero-design {
@@ -39,6 +40,10 @@
 
 .htl-bottom {
     margin-top: 54px;
+}
+
+.hero-top {
+    margin-bottom: 50px;
 }
 
 .hero-middle {

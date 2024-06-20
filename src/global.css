@@ -160,7 +160,11 @@
 
 }
 
-@media (width<580px) {}
+@media (width<580px) {
+    .f-34 {
+        font-size: 24px;
+    }
+}
 
 @media (width<480px) {
     .section {
@@ -181,6 +185,10 @@
 
     .f-18 {
         font-size: 12px;
+    }
+
+    .f-34 {
+        font-size: 16px;
     }
 }
 

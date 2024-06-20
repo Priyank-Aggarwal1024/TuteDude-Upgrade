@@ -38,7 +38,7 @@ function Hero(props) {
                     <img src={HeroImg} alt="Hero Image" />
                 </div>
             </div>
-            <div className="hero-middle">
+            {/* <div className="hero-middle">
                 <div className="hm-left">
                     <p className="fw-700 f-34 text-pink text-center">3</p>
                     <p className="fw-700 f-16 text-pink" style={{ color: "#263238" }}>Selected Course</p>
@@ -50,7 +50,20 @@ function Hero(props) {
                 <div className="hm-right">
                     <div className="proceed f-18 text-white">Procced</div>
                 </div>
-            </div>
+            </div> */}
+            {/* <div className="layout-bottom">
+                <div className="hm-left">
+                    <p className="fw-700 f-34 text-pink text-center">7</p>
+                    <p className="fw-700 f-16 text-pink text-center" style={{ color: "#263238" }}>Selected Course</p>
+                </div>
+                <div className="hm-middle">
+                    <p className="fw-700 f-34 text-pink text-center">₹799</p>
+                    <p className="fw-700 f-16 text-pink text-center" style={{ color: "#263238" }}>Total Price </p>
+                </div>
+                <div className="hm-right">
+                    <div className="proceed layout-proceed f-18 text-white">Procced</div>
+                </div>
+            </div> */}
             <div className="hero-bottom">
                 <div className="hb-card hb-card-1">
                     <div className="hb-card-inner1">

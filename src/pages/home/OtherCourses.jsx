@@ -85,7 +85,7 @@ const cards = [
         off: "45% OFF "
     },
     {
-        icon: "./Main1.png",
+        icon: "./Main4.png",
         heading: "Full Stack Combo pack ",
         company: [
             {
@@ -118,7 +118,7 @@ const cards = [
         off: "45% OFF "
     },
     {
-        icon: "./Main2.png",
+        icon: "./Main5.png",
         heading: "Business Combo pack",
         company: [
             {
@@ -143,7 +143,7 @@ const cards = [
         off: "45% OFF "
     },
     {
-        icon: "./Main3.png",
+        icon: "./Main6.png",
         heading: "Tech Geek Combo pack",
         company: [
             {
