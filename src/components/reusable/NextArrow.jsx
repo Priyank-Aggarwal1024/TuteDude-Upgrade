@@ -5,7 +5,7 @@ function NextArrow(props) {
     const { classN, style, onClick } = props;
 
     return (
-        <div className={`next-arrow ${classN}`}
+        <div className={`upg-pag-next-arrow ${classN}`}
             style={{ ...style, display: "block" }
             }
             onClick={onClick} >

@@ -4,14 +4,14 @@
     box-sizing: border-box;
 }
 
-.othercourses {
+.upg-pag-othercourses {
     overflow: hidden;
     padding: 64px 14px;
     border-radius: 21px;
     background: #350B35;
 }
 
-.card-section-heading {
+.upg-pag-card-section-heading {
     color: var(--Color-2, #FFF);
     font-family: Poppins;
     font-size: 48px;
@@ -21,13 +21,13 @@
     text-align: center;
 }
 
-.container {
+.upg-pag-container {
     border-radius: 20px;
     background: var(--Color-2, #FFF);
     box-shadow: 0px 4px 19.1px 0px rgba(0, 0, 0, 0.19);
 }
 
-.cards {
+.upg-pag-cards {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
@@ -37,7 +37,7 @@
     margin: 64px 0;
 }
 
-.other-card {
+.upg-pag-other-card {
     width: 366px;
     height: 514px;
     flex-shrink: 0;
@@ -51,11 +51,11 @@
     /* background: linear-gradient(188deg, rgba(128, 0, 128, 0.30) 6.4%, rgba(255, 134, 76, 0.08) 42.44%); */
 }
 
-.container {
+.upg-pag-container {
     background: #fff;
 }
 
-/* .svg-other-card{
+/* .upg-pag-svg-other-card{
     position: absolute;
     width: 1078.97px;
     height: 623.611px;
@@ -65,7 +65,7 @@
     opacity: 0.4;
 } */
 
-.card-heading>h3 {
+.upg-pag-card-heading>h3 {
     color: var(--tutedude-color-primary-100, #902190);
     font-family: Poppins;
     font-size: 24.858px;
@@ -75,21 +75,21 @@
     text-transform: capitalize;
 }
 
-.card-top {
+.upg-pag-card-top {
     display: flex;
     padding: 16px;
     gap: 12px;
     border-bottom: dashed 1px rgba(128, 0, 128, 0.2);
 }
 
-.card-bottom {
+.upg-pag-card-bottom {
     padding: 16px;
     align-self: flex-end;
 
 
 }
 
-.card-middle {
+.upg-pag-card-middle {
     padding: 16px 16px 0;
     display: flex;
     flex-wrap: wrap;
@@ -100,7 +100,7 @@
 
 }
 
-.card-main-img {
+.upg-pag-card-main-img {
     width: 94px;
     height: 93px;
     flex-shrink: 0;
@@ -110,12 +110,12 @@
     filter: drop-shadow(0px 4px 10.2px rgba(140, 18, 134, 0.18));
 }
 
-.card-main-img>img {
+.upg-pag-card-main-img>img {
     width: 65px;
     height: 65px;
 }
 
-.card-company-title {
+.upg-pag-card-company-title {
     color: var(--Woodsmoke-400, #83848D);
     font-family: Poppins;
     font-size: 15px;
@@ -126,7 +126,7 @@
     text-transform: capitalize;
 }
 
-.card-company {
+.upg-pag-card-company {
     display: inline-flex;
     justify-content: start;
     align-items: center;
@@ -134,12 +134,12 @@
     width: 45%;
 }
 
-.card-company-img>img {
+.upg-pag-card-company-img>img {
     width: 45px;
     height: 45px;
 }
 
-.card-company-img {
+.upg-pag-card-company-img {
     display: flex;
     /* padding: 2px 3px; */
     align-items: flex-start;
@@ -149,14 +149,14 @@
     box-shadow: 0px 5.189px 45.795px 0px rgba(59, 59, 59, 0.18);
 }
 
-.card-bottom-price {
+.upg-pag-card-bottom-price {
     display: flex;
     align-items: center;
     gap: 7.5px;
 
 }
 
-.card-price {
+.upg-pag-card-price {
     color: var(--Eminence-700, #992E9D);
     text-align: center;
     font-family: Poppins;
@@ -167,7 +167,7 @@
     text-transform: capitalize;
 }
 
-.card-discount {
+.upg-pag-card-discount {
     color: var(--Woodsmoke-600, #595961);
     text-align: center;
     font-family: Poppins;
@@ -179,7 +179,7 @@
     text-transform: capitalize;
 }
 
-.card-off {
+.upg-pag-card-off {
     color: #04BD00;
     text-align: center;
     font-family: Poppins;
@@ -189,13 +189,13 @@
     line-height: normal;
 }
 
-.card-bottom {
+.upg-pag-card-bottom {
     display: flex;
     flex-direction: column;
     gap: 12px;
 }
 
-.bottom-validity-para {
+.upg-pag-bottom-validity-para {
     color: var(--800080, rgba(128, 0, 128, 0.87));
     font-family: Poppins;
     font-size: 14px;
@@ -205,7 +205,7 @@
     letter-spacing: -0.42px;
 }
 
-.bottom-validity {
+.upg-pag-bottom-validity {
     display: flex;
     width: 100%;
     padding: 8px;
@@ -216,7 +216,7 @@
     border: 1px solid var(--Eminence-700, #992E9D);
 }
 
-.bottom-know {
+.upg-pag-bottom-know {
     display: flex;
     width: 100%;
     justify-content: center;
@@ -235,14 +235,14 @@
     /* 22.23px */
 }
 
-.oc-bottomcard {
+.upg-pag-oc-bottomcard {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 50px;
 }
 
-.oc-bottomcards {
+.upg-pag-oc-bottomcards {
     width: 366.925px;
     height: 390.46px;
     flex-shrink: 0;
@@ -253,7 +253,7 @@
 
 }
 
-.ocb-off {
+.upg-pag-ocb-off {
     clip-path: polygon(100% 0%, 100% 100%, 50.4% 74.3%, 0% 99.3%, 0% 0.7%);
     width: 65px;
     height: 76px;
@@ -276,13 +276,13 @@
 }
 
 
-.ot-bottomcards-design {
+.upg-pag-ot-bottomcards-design {
     position: absolute;
     bottom: 0;
     left: 0;
 }
 
-.ocb-inner {
+.upg-pag-ocb-inner {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -290,7 +290,7 @@
     justify-content: space-between;
 }
 
-.ocb-heading {
+.upg-pag-ocb-heading {
     color: var(--800080, rgba(128, 0, 128, 0.87));
     font-family: Poppins;
     font-size: 32px;
@@ -301,13 +301,13 @@
     width: 227.104px;
 }
 
-.ocb-middle {
+.upg-pag-ocb-middle {
     display: flex;
     flex-direction: column;
     gap: 13.65px;
 }
 
-.ocb-middle-horizontal {
+.upg-pag-ocb-middle-horizontal {
     display: flex;
     align-items: center;
     gap: 9.63px;
@@ -319,11 +319,11 @@
     letter-spacing: -0.54px;
 }
 
-.f-14 {
+.upg-pag-f-14 {
     font-size: 14px;
 }
 
-.ocb-know {
+.upg-pag-ocb-know {
     border-radius: 7.998px;
     background: #800080;
     box-shadow: 0px 4.279px 9.521px 0px rgba(0, 0, 0, 0.25);
@@ -344,22 +344,22 @@
 @media (width<1080px) {}
 
 @media (width<900px) {
-    .oc-bottomcard {
+    .upg-pag-oc-bottomcard {
         display: none;
     }
 
-    section.section-othercourses {
+    section.upg-pag-section-othercourses {
         padding-right: 0;
         padding-left: 0;
 
     }
 
-    .othercourses {
+    .upg-pag-othercourses {
         border-radius: 0;
 
     }
 
-    .cards {
+    .upg-pag-cards {
         flex-wrap: nowrap;
         overflow-y: hidden;
         overflow-x: auto;
@@ -368,28 +368,28 @@
         scroll-behavior: smooth;
     }
 
-    .cards::-webkit-scrollbar {
+    .upg-pag-cards::-webkit-scrollbar {
         height: 8px;
         width: 200px;
 
     }
 
-    .cards::-webkit-scrollbar-track {
+    .upg-pag-cards::-webkit-scrollbar-track {
         background: #f1f1f1;
         border-radius: 12px;
 
     }
 
-    .cards::-webkit-scrollbar-thumb {
+    .upg-pag-cards::-webkit-scrollbar-thumb {
         border-radius: 12px;
         background: rgba(128, 0, 128, 0.50);
     }
 
-    .cards::-webkit-scrollbar-thumb:hover {
+    .upg-pag-cards::-webkit-scrollbar-thumb:hover {
         background: #555;
     }
 
-    .cards::-webkit-scrollbar-button {
+    .upg-pag-cards::-webkit-scrollbar-button {
         display: none;
     }
 }
@@ -397,16 +397,16 @@
 @media (width<580px) {}
 
 @media (width<480px) {
-    .other-card {
+    .upg-pag-other-card {
         width: 90vw;
         min-height: 100%;
     }
 
-    .card-heading>h3 {
+    .upg-pag-card-heading>h3 {
         font-size: 20px;
     }
 
-    .card-main-img {
+    .upg-pag-card-main-img {
         width: 68.209px;
         height: 67.483px;
         display: flex;
@@ -414,49 +414,49 @@
         justify-content: center;
     }
 
-    .card-main-img>img {
+    .upg-pag-card-main-img>img {
         width: 47.166px;
         height: 47.166px;
         flex-shrink: 0;
     }
 
-    .card-company-img>img {
+    .upg-pag-card-company-img>img {
         width: 38.521px;
         height: 38.521px;
     }
 
-    .card-company-title {
+    .upg-pag-card-company-title {
         font-size: 14px;
     }
 
-    .card-price {
+    .upg-pag-card-price {
         font-size: 28px;
     }
 
-    .card-discount {
+    .upg-pag-card-discount {
         font-size: 14px;
     }
 
-    .card-top,
-    .card-bottom {
+    .upg-pag-card-top,
+    .upg-pag-card-bottom {
         padding: 8px 12px 8px 8px;
     }
 
-    .card-middle {
+    .upg-pag-card-middle {
         padding: 8px 12px 0px 8px;
         row-gap: 11px;
     }
 
-    .card-bottom {
+    .upg-pag-card-bottom {
         gap: 10px;
         align-self: flex-end;
     }
 
-    .bottom-validity-para {
+    .upg-pag-bottom-validity-para {
         font-size: 12px;
     }
 
-    .other-card {
+    .upg-pag-other-card {
         width: 290px;
         height: 400px;
         flex-shrink: 0;
@@ -466,15 +466,15 @@
         grid-template-rows: auto auto auto;
     }
 
-    .app {
+    .upg-pag-app {
         padding: 64px 16px;
     }
 
-    .cards {
+    .upg-pag-cards {
         margin: 32px 0;
     }
 
-    .card-section-heading {
+    .upg-pag-card-section-heading {
         font-size: 32px;
     }
 }

@@ -1,9 +1,9 @@
-.star-div {
+.upg-pag-star-div {
     display: flex;
     gap: 5px;
 }
 
-.star {
+.upg-pag-star {
     width: 25.264px;
     height: 25.264px;
     display: flex;
@@ -11,7 +11,7 @@
     justify-content: center;
 }
 
-.previous-arrow {
+.upg-pag-previous-arrow {
     display: flex;
     width: 44.212px;
     height: 44.212px;
@@ -24,13 +24,13 @@
     margin-right: 15px;
 }
 
-.previous-arrow>svg {
+.upg-pag-previous-arrow>svg {
     width: 25.264px;
     height: 25.264px;
     flex-shrink: 0;
 }
 
-.next-arrow {
+.upg-pag-next-arrow {
     display: flex;
     width: 44.212px;
     height: 44.212px;
@@ -46,19 +46,19 @@
 
 }
 
-.next-arrow:hover>svg>path,
-.previous-arrow:hover>svg>path {
+.upg-pag-next-arrow:hover>svg>path,
+.upg-pag-previous-arrow:hover>svg>path {
     stroke: white;
 
 }
 
-.next-arrow:hover,
-.previous-arrow:hover {
+.upg-pag-next-arrow:hover,
+.upg-pag-previous-arrow:hover {
     background: var(--Linear, linear-gradient(90deg, #800080 3.92%, #B466C1 52.78%, #800080 92.42%));
     border: none;
 }
 
-.next-arrow>svg {
+.upg-pag-next-arrow>svg {
     width: 25.264px;
     height: 25.264px;
     border-radius: 50%;
@@ -67,50 +67,50 @@
 }
 
 @media (width<1080px) {
-    .star>svg {
+    .upg-pag-star>svg {
         width: 18px;
         height: 18px;
 
     }
 
-    .star {
+    .upg-pag-star {
         width: 18px;
         height: 18px;
 
     }
 
-    .star-div {
+    .upg-pag-star-div {
         gap: 2px;
     }
 
-    .next-arrow {
+    .upg-pag-next-arrow {
         margin-left: 8px;
     }
 
-    .previous-arrow {
+    .upg-pag-previous-arrow {
         margin-right: 8px;
     }
 
 }
 
 @media (width<480px) {
-    .star-div {
+    .upg-pag-star-div {
         flex-wrap: wrap;
 
     }
 
-    .star,
-    .star>svg {
+    .upg-pag-star,
+    .upg-pag-star>svg {
         width: 14.574px;
         height: 14.574px;
     }
 
-    .tct-l {
+    .upg-pag-tct-l {
         gap: 8px;
     }
 
-    .next-arrow,
-    .previous-arrow {
+    .upg-pag-next-arrow,
+    .upg-pag-previous-arrow {
         width: 28px;
         height: 28px;
         /* margin: 0; */
@@ -121,7 +121,7 @@
     }
 
 
-    .previous-arrow>svg {
+    .upg-pag-previous-arrow>svg {
         width: 20px;
         height: 20px;
         border-radius: 50%;
@@ -131,7 +131,7 @@
         transform: translate(-50%, 20%);
     }
 
-    .next-arrow>svg {
+    .upg-pag-next-arrow>svg {
         width: 20px;
         height: 20px;
         border-radius: 50%;

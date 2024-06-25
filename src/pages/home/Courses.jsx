@@ -113,30 +113,30 @@ const business = [
 ]
 function Courses(props) {
     return (
-        <section className="section course-section">
-            <h2 className="f-48 fw-400 text-black text-center">Choose{" "} <span className="fw-700 text-pink">Your Courses</span></h2>
-            <div className="courses">
-                <div className="course">
-                    <div className="course-heading">Technical Courses </div>
-                    <div className="course-div-outer">  <div className="course-div">
+        <section className="upg-pag-section upg-pag-course-section">
+            <h2 className="upg-pag-f-48 upg-pag-fw-400 upg-pag-text-black upg-pag-text-center">Choose{" "} <span className="upg-pag-fw-700 upg-pag-text-pink">Your Courses</span></h2>
+            <div className="upg-pag-courses">
+                <div className="upg-pag-course">
+                    <div className="upg-pag-course-heading">Technical Courses </div>
+                    <div className="upg-pag-course-div-outer">  <div className="upg-pag-course-div">
                         {
                             tech.map((item, index) => <CourseCard item={item} key={index} />)
                         }
                     </div>
                     </div>
                 </div>
-                <div className="course">
-                    <div className="course-heading">Creative/Art Course</div>
-                    <div className="course-div-outer">  <div className="course-div">
+                <div className="upg-pag-course">
+                    <div className="upg-pag-course-heading">Creative/Art Course</div>
+                    <div className="upg-pag-course-div-outer">  <div className="upg-pag-course-div">
                         {
                             creative.map((item, index) => <CourseCard item={item} key={index} />)
                         }
                     </div>
                     </div>
                 </div>
-                <div className="course">
-                    <div className="course-heading">Business Course</div>
-                    <div className="course-div-outer">  <div className="course-div">
+                <div className="upg-pag-course">
+                    <div className="upg-pag-course-heading">Business Course</div>
+                    <div className="upg-pag-course-div-outer">  <div className="upg-pag-course-div">
                         {
                             business.map((item, index) => <CourseCard item={item} key={index} />)
                         }

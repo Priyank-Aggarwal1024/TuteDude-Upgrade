@@ -1,9 +1,9 @@
-section.section-footer {
+section.upg-pag-section-footer {
     padding: 64px 24px;
     padding-bottom: 24px;
 }
 
-.footer {
+.upg-pag-footer {
     border-radius: 21px;
     background: #350B35;
     width: 100%;
@@ -17,22 +17,22 @@ section.section-footer {
     /* grid-template-rows: auto; */
 }
 
-.footer-sec2 .footer-sec-links {
+.upg-pag-footer-sec2 .upg-pag-footer-sec-links {
     display: flex;
     align-items: center;
     gap: 7.911px;
 }
 
-.footer>div {
+.upg-pag-footer>div {
     /* min-width: 150px; */
     margin-right: auto;
 }
 
-.section-footer {
+.upg-pag-section-footer {
     padding: 64px 32px;
 }
 
-.footer-sec-heading {
+.upg-pag-footer-sec-heading {
     color: var(--Color-2, #FFF);
     font-family: Poppins;
     font-size: 18px;
@@ -41,14 +41,14 @@ section.section-footer {
     line-height: normal;
 }
 
-.footer-sec {
+.upg-pag-footer-sec {
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
 
-.footer-email,
-.footer-phone {
+.upg-pag-footer-email,
+.upg-pag-footer-phone {
     color: var(--Color-2, #FFF);
     font-family: Poppins;
     font-size: 16px;
@@ -58,11 +58,11 @@ section.section-footer {
     letter-spacing: 0.4px;
 }
 
-.footer-email {
+.upg-pag-footer-email {
     margin-bottom: 16px;
 }
 
-.footer-sec1 .footer-sec-links {
+.upg-pag-footer-sec1 .upg-pag-footer-sec-links {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -70,7 +70,7 @@ section.section-footer {
 
 }
 
-.footer-address {
+.upg-pag-footer-address {
     color: var(--Color-2, #FFF);
     font-family: Poppins;
     font-size: 16px;
@@ -79,7 +79,7 @@ section.section-footer {
     line-height: normal;
 }
 
-.footer-sec1 a {
+.upg-pag-footer-sec1 a {
     color: var(--Color-2, #FFF);
     font-family: Poppins;
     font-size: 16px;
@@ -90,32 +90,32 @@ section.section-footer {
 }
 
 @media (width<780px) {
-    section.section-footer {
+    section.upg-pag-section-footer {
         padding: 64px 24px;
     }
 
 }
 
 @media (width<580px) {
-    section.section-footer {
+    section.upg-pag-section-footer {
         padding: 32px 16px;
     }
 
-    .footer {
+    .upg-pag-footer {
         padding: 48px 15px;
     }
 
-    .footer-sec-links {
+    .upg-pag-footer-sec-links {
         opacity: .8;
     }
 }
 
 @media (width<480px) {
-    section.section-footer {
+    section.upg-pag-section-footer {
         padding: 32px 8px;
     }
 
-    .footer {
+    .upg-pag-footer {
         padding: 48px 10px;
     }
 }

@@ -5,16 +5,16 @@ import Logo from '../../assets/logo.png'
 import Logo2 from '../../assets/logo2.png'
 function Navbar(props) {
     return (
-        <nav className="navbar">
-            <div className="nav-left">
-                <NavLink to="/" className="nav-logo">
-                    <img src={Logo} className='va-mid logo-large' alt="Logo" />
-                    <img src={Logo2} className='va-mid logo-small' alt="Logo" />
+        <nav className="upg-pag-navbar">
+            <div className="upg-pag-nav-left">
+                <NavLink to="/" className="upg-pag-nav-logo">
+                    <img src={Logo} className="upg-pag-va-mid upg-pag-logo-large" alt="Logo" />
+                    <img src={Logo2} className="upg-pag-va-mid upg-pag-logo-small" alt="Logo" />
                 </NavLink>
             </div>
-            <div className="nav-btn">
-                <NavLink className="nav-login-btn">Login </NavLink>
-                <NavLink className="nav-signup-btn">Sign Up</NavLink>
+            <div className="upg-pag-nav-btn">
+                <NavLink className="upg-pag-nav-login-btn">Login </NavLink>
+                <NavLink className="upg-pag-nav-signup-btn">Sign Up</NavLink>
             </div>
         </nav>
     );

@@ -1,4 +1,4 @@
-.faq {
+.upg-pag-faq {
     margin-top: 64px;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -7,11 +7,11 @@
     column-gap: 34px;
 }
 
-.checkbox {
+.upg-pag-checkbox {
     display: none;
 }
 
-.ans {
+.upg-pag-ans {
     color: var(--Grey-30, #4C4C4C);
     font-family: Poppins;
     font-size: 15.765px;
@@ -22,8 +22,8 @@
     letter-spacing: -0.095px;
 }
 
-.faq-left,
-.faq-right {
+.upg-pag-faq-left,
+.upg-pag-faq-right {
     display: flex;
     padding: 45.042px;
     flex-direction: column;
@@ -36,7 +36,7 @@
 }
 
 
-.faq-item {
+.upg-pag-faq-item {
     display: flex;
     padding: 27.025px 0px;
     flex-direction: column;
@@ -46,7 +46,7 @@
     border-bottom: 1.126px solid var(--Linear, #D5D5D5);
 }
 
-.ques {
+.upg-pag-ques {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -62,8 +62,8 @@
 
 }
 
-.refund-faq-heading,
-.checkout-faq-heading {
+.upg-pag-refund-faq-heading,
+.upg-pag-checkout-faq-heading {
     font-family: Poppins;
     font-size: 30px;
     font-style: normal;
@@ -78,13 +78,13 @@
 }
 
 @media (width<1080px) {
-    .faq {
+    .upg-pag-faq {
         grid-template-columns: 1fr;
         grid-template-rows: fit-content fit-content;
     }
 
-    .faq-left,
-    .faq-right {
+    .upg-pag-faq-left,
+    .upg-pag-faq-right {
         height: fit-content;
 
     }
@@ -92,32 +92,32 @@
 
 @media (width<580px) {
 
-    .faq-left,
-    .faq-right {
+    .upg-pag-faq-left,
+    .upg-pag-faq-right {
         padding: 45.042px 12px;
 
 
     }
 
-    .refund-faq-heading,
-    .checkout-faq-heading {
+    .upg-pag-refund-faq-heading,
+    .upg-pag-checkout-faq-heading {
         margin-bottom: 14px;
     }
 
-    .ques {
+    .upg-pag-ques {
         font-size: 16px;
     }
 
-    .ans {
+    .upg-pag-ans {
         font-size: 14px;
     }
 
-    .faq-icon {
+    .upg-pag-faq-icon {
         width: 40px;
         height: 40px;
     }
 
-    .faq-icon>img {
+    .upg-pag-faq-icon>img {
         width: inherit;
         height: inherit;
     }
@@ -125,17 +125,17 @@
 }
 
 @media (width<360px) {
-    .faq-item {
+    .upg-pag-faq-item {
         padding: 18px 0;
         gap: 18px;
     }
 
-    .ques {
+    .upg-pag-ques {
         gap: 14px;
         font-size: 15px;
     }
 
-    .ans {
+    .upg-pag-ans {
         font-size: 12px;
     }
 }

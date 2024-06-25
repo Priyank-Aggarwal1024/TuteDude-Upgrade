@@ -72,27 +72,27 @@ function Faq(props) {
 
     }
     return (
-        <section className="section section-faq">
-            <h2 className="faq-heading fw-500 f-48 text-black text-center">
-                Frequently Asked <span className="text-pink fw-700">Questions</span>
+        <section className="upg-pag-section upg-pag-section-faq">
+            <h2 className="upg-pag-faq-heading upg-pag-fw-500 upg-pag-f-48 upg-pag-text-black upg-pag-text-center">
+                Frequently Asked <span className="upg-pag-text-pink upg-pag-fw-700">Questions</span>
             </h2>
-            <div className="faq">
-                <div className="faq-left">
-                    <h3 className="checkout-faq-heading">Check Out Our FAQs!</h3>
+            <div className="upg-pag-faq">
+                <div className="upg-pag-faq-left">
+                    <h3 className="upg-pag-checkout-faq-heading">Check Out Our FAQs!</h3>
                     {
                         checkout.map((item, idx) => {
                             return (
-                                <div className="faq-item" key={idx}>
-                                    <input type="checkbox" value={item.checked} name={`checkout-${idx}`} className='checkbox' />
-                                    <label className='ques' htmlFor={`checkout-${idx}`} onClick={() => checkoutCallback(idx)}>
+                                <div className="upg-pag-faq-item" key={idx}>
+                                    <input type="checkbox" value={item.checked} name={`checkout-${idx}`} className="upg-pag-checkbox" />
+                                    <label className="upg-pag-ques" htmlFor={`checkout-${idx}`} onClick={() => checkoutCallback(idx)}>
                                         <p>{item.ques}</p>
-                                        <div className="faq-icon">
+                                        <div className="upg-pag-faq-icon">
                                             {
                                                 item.checked ? <img src={uncheck} alt="UnCheck" /> : <img src={check} alt="Check" />
                                             }
                                         </div>
                                     </label>
-                                    <div className="ans" style={{ display: item.checked ? "block" : "none" }}>
+                                    <div className="upg-pag-ans" style={{ display: item.checked ? "block" : "none" }}>
                                         {
                                             item.ans
                                         }
@@ -102,24 +102,24 @@ function Faq(props) {
                         })
                     }
                 </div>
-                <div className="faq-right">
-                    <h3 className="refund-faq-heading">
+                <div className="upg-pag-faq-right">
+                    <h3 className="upg-pag-refund-faq-heading">
                         TuteDude and Refund
                     </h3>
                     {
                         refund.map((item, idx) => {
                             return (
-                                <div className="faq-item" key={idx}>
-                                    <input type="checkbox" value={item.checked} name={`checkout-${idx}`} className='checkbox' />
-                                    <label className='ques' htmlFor={`checkout-${idx}`} onClick={() => refundCallback(idx)}>
+                                <div className="upg-pag-faq-item" key={idx}>
+                                    <input type="checkbox" value={item.checked} name={`checkout-${idx}`} className="upg-pag-checkbox" />
+                                    <label className="upg-pag-ques" htmlFor={`checkout-${idx}`} onClick={() => refundCallback(idx)}>
                                         <p>{item.ques}</p>
-                                        <div className="faq-icon">
+                                        <div className="upg-pag-faq-icon">
                                             {
                                                 item.checked ? <img src={uncheck} alt="UnCheck" /> : <img src={check} alt="Check" />
                                             }
                                         </div>
                                     </label>
-                                    <div className="ans" style={{ display: item.checked ? "block" : "none" }}>
+                                    <div className="upg-pag-ans" style={{ display: item.checked ? "block" : "none" }}>
                                         {
                                             item.ans
                                         }

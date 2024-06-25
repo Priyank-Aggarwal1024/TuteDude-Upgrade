@@ -5,7 +5,7 @@ function PrevArrow(props) {
     const { classN, style, onClick } = props;
 
     return (
-        <div className={`previous-arrow ${classN}`}
+        <div className={`upg-pag-previous-arrow ${classN}`}
             style={{ ...style, display: "block" }
             }
             onClick={onClick} >

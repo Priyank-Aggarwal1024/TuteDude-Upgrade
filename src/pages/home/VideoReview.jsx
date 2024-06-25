@@ -55,28 +55,28 @@ function VideoReview(props) {
         setCarousel(temp)
     }
     return (
-        <section className="section section-videoreview">
-            <div className="video-review-heading">
-                <p className="f-48 fw-400 text-black">Video
+        <section className="upg-pag-section upg-pag-section-videoreview">
+            <div className="upg-pag-video-review-heading">
+                <p className="upg-pag-f-48 upg-pag-fw-400 upg-pag-text-black">Video
                     Reviews from</p>
-                <p className="f-48 fw-700 text-pink">Our Students!</p>
-                <p className="wood-smoke-950 fw-400 review-video-para">Watch and be inspired by our students sharing their success stories through video reviews.</p>
+                <p className="upg-pag-f-48 upg-pag-fw-700 upg-pag-text-pink">Our Students!</p>
+                <p className="upg-pag-wood-smoke-950 upg-pag-fw-400 upg-pag-review-video-para">Watch and be inspired by our students sharing their success stories through video reviews.</p>
             </div>
-            <div className="video-review-carousel">
-                <div className="video-review-top">
+            <div className="upg-pag-video-review-carousel">
+                <div className="upg-pag-video-review-top">
                     {
                         carousel.map((item, idx) => {
                             return (
-                                <div className="video-carousel-card" key={idx} onClick={idx == 0 ? () => { } : () => nextCallback(idx)}>
+                                <div className="upg-pag-video-carousel-card" key={idx} onClick={idx == 0 ? () => { } : () => nextCallback(idx)}>
                                     <img src={item.img} alt="Video Review" />
-                                    <div className="video-review-author">{item.name}</div>
-                                    <div className="video-review-profession">{item.profession}</div>
+                                    <div className="upg-pag-video-review-author">{item.name}</div>
+                                    <div className="upg-pag-video-review-profession">{item.profession}</div>
                                 </div>
                             )
                         })
                     }
                 </div>
-                <div className="video-review-bottom">
+                <div className="upg-pag-video-review-bottom">
                     <PrevArrow onClick={prevCallback} style={{}} classN="" />
                     <NextArrow onClick={() => nextCallback(1)} style={{}} classN="" />
                     {/* <Next onClick={prevCallback} style={{}} classN="" /> */}

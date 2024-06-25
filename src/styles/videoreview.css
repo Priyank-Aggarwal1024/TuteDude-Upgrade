@@ -1,4 +1,4 @@
-.section-videoreview {
+.upg-pag-section-videoreview {
     display: flex;
     justify-content: flex-start;
     gap: 61px;
@@ -6,34 +6,34 @@
     overflow: hidden;
 }
 
-.video-review-heading {
+.upg-pag-video-review-heading {
     min-width: 351px;
     line-height: 1.2;
 }
 
-.review-video-para {
+.upg-pag-review-video-para {
     margin-top: 6px;
 }
 
-.video-review-carousel {
+.upg-pag-video-review-carousel {
     display: flex;
     flex-direction: column;
     gap: 24px;
     width: 100%;
 }
 
-.video-review-top {
+.upg-pag-video-review-top {
     display: flex;
     gap: 24px;
 
 }
 
-.video-review-bottom {
+.upg-pag-video-review-bottom {
     display: flex;
     align-items: center;
 }
 
-.video-carousel-card {
+.upg-pag-video-carousel-card {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -46,13 +46,13 @@
     height: 352px;
 }
 
-.video-carousel-card>img {
+.upg-pag-video-carousel-card>img {
     aspect-ratio: 236/254;
     border-radius: 12px;
 
 }
 
-.video-review-author {
+.upg-pag-video-review-author {
     color: var(--585858, #585858);
     font-family: Poppins;
     font-size: 20px;
@@ -62,7 +62,7 @@
     line-height: normal;
 }
 
-.video-review-profession {
+.upg-pag-video-review-profession {
     color: var(--585858, #585858);
     font-family: Poppins;
     font-size: 16px;
@@ -72,17 +72,17 @@
 }
 
 @media (width<1080px) {
-    .video-review-heading {
+    .upg-pag-video-review-heading {
         min-width: unset;
         width: 100%;
     }
 
-    .section-videoreview {
+    .upg-pag-section-videoreview {
         flex-direction: column;
         align-items: flex-start;
     }
 
-    .video-review-bottom {
+    .upg-pag-video-review-bottom {
         justify-content: flex-end;
         padding-right: 40px;
     }

@@ -20,10 +20,7 @@ function Layout(props) {
     })
     return (
         <>
-
-
-
-            <div className='layout'>
+            <div className="upg-pag-layout">
                 <Navbar />
                 <Hero />
                 <Refund />
@@ -34,17 +31,17 @@ function Layout(props) {
                 <Footer />
 
             </div>
-            <div className="layout-bottom">
-                <div className="hm-left">
-                    <p className="fw-700 f-34 text-pink text-center">7</p>
-                    <p className="fw-700 f-16 text-pink text-center" style={{ color: "#263238" }}>Selected Course</p>
+            <div className="upg-pag-layout-bottom">
+                <div className="upg-pag-hm-left">
+                    <p className="upg-pag-fw-700 upg-pag-f-34 upg-pag-text-pink upg-pag-text-center">7</p>
+                    <p className="upg-pag-fw-700 upg-pag-f-16 upg-pag-text-pink upg-pag-text-center" style={{ color: "#263238" }}>Selected Course</p>
                 </div>
-                <div className="hm-middle">
-                    <p className="fw-700 f-34 text-pink text-center">₹799</p>
-                    <p className="fw-700 f-16 text-pink text-center" style={{ color: "#263238" }}>Total Price </p>
+                <div className="upg-pag-hm-middle">
+                    <p className="upg-pag-fw-700 upg-pag-f-34 upg-pag-text-pink upg-pag-text-center">₹799</p>
+                    <p className="upg-pag-fw-700 upg-pag-f-16 upg-pag-text-pink upg-pag-text-center" style={{ color: "#263238" }}>Total Price </p>
                 </div>
-                <div className="hm-right">
-                    <div className="proceed layout-proceed f-18 text-white">Procced</div>
+                <div className="upg-pag-hm-right">
+                    <div className="upg-pag-proceed upg-pag-layout-proceed upg-pag-f-18 upg-pag-text-white">Procced</div>
                 </div>
             </div>
         </>

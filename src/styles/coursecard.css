@@ -1,5 +1,5 @@
-.add,
-.view {
+.upg-pag-add,
+.upg-pag-view {
     color: var(--Tutedudes-Primary-Purple, #800080);
     font-family: Poppins;
     font-size: 14px;
@@ -8,24 +8,24 @@
     line-height: normal;
 }
 
-.ccdl-left>img {
+.upg-pag-ccdl-left>img {
     width: 60px;
     height: 60px;
     border-radius: 9px;
 }
 
-.ccd-left {
+.upg-pag-ccd-left {
     display: flex;
     align-items: center;
     gap: 6px;
 }
 
-/* .ccdl-left {
+/* .upg-pag-ccdl-left {
     border-radius: 9px;
     box-shadow: 0px 4px 7.8px 0px rgba(255, 255, 255, 0.41) inset, 0px 3px 10.4px 0px rgba(59, 59, 59, 0.36);
 } */
 
-.ccd-right {
+.upg-pag-ccd-right {
     color: #431943;
     font-family: Poppins;
     font-size: 18px;
@@ -38,13 +38,13 @@
 
 }
 
-.ccd-right>div {
+.upg-pag-ccd-right>div {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
-.course-card-div {
+.upg-pag-course-card-div {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -63,38 +63,38 @@
 @media (width<1080px) {}
 
 @media (width<820px) {
-    .course-card-div {
+    .upg-pag-course-card-div {
         width: 100%;
     }
 }
 
 
 @media (width<480px) {
-    .course-card-div {
+    .upg-pag-course-card-div {
         gap: 18px;
     }
 }
 
 @media (width<375px) {
 
-    .view,
-    .add {
+    .upg-pag-view,
+    .upg-pag-add {
         font-size: 13px;
     }
 
-    .ccdr-left>svg,
-    .ccdr-right>svg {
+    .upg-pag-ccdr-left>svg,
+    .upg-pag-ccdr-right>svg {
         width: 28.361px;
         height: 28.361px;
         flex-shrink: 0;
     }
 
-    .ccdl-left>img {
+    .upg-pag-ccdl-left>img {
         width: 45px;
         height: 45px;
     }
 
-    .ccdl-right {
+    .upg-pag-ccdl-right {
         font-size: 14px;
     }
 }
